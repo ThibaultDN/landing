@@ -1,0 +1,264 @@
+
+body{
+    background: #fff;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+    color: #626262;
+    font-family: "lato-regular", Clinzel, serif;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgb(128, 69, 0);
+}
+
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin-top: 40px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+.hero{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url('../img/bibliotheque.jpeg') no-repeat bottom center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero .caption{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -105px;
+}
+
+.hero .caption h2{
+    color: #fff;
+    font-family: "P22 Corinthia";
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.hero .caption h3{
+    color: #fff;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 14px;
+    margin: -15px 0 0 25px;
+    left: 1px;
+}
+
+
+.listings{
+    padding: 100px 0;
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    width: 340px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.listings ul.properties_list li img.property_img{
+    width: 100%;
+    height: auto!important;
+    vertical-align: top;
+}
+
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px 20px;
+    background: #FEDFBB;
+    color: #514d4d;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.listings ul.properties_list li:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.listings ul li .property_details{
+    width: 298px;
+    padding: 10px 20px 14px 20px;
+    border-bottom: 1px solid #f2f1f1;
+    border-left: 1px solid #f2f1f1;
+    border-right: 1px solid #f2f1f1;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 1px solid #95badf;
+    border-left: 1px solid #95badf;
+    border-right: 1px solid #95badf;
+}
+
+.listings ul li .property_details h1{
+    color: #666464;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+    text-decoration: none;
+    color: #666464;
+}
+
+.listings ul li .property_details h2{
+    color: #FEDFBB;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.listings ul li .property_details .property_size{
+    color: #FEDFBB;
+}
+
+footer{
+    padding-top: 100px;
+    background: #DCA565;
+}
+
+footer .footer > ul{
+    overflow: hidden;
+}
+
+footer .footer > ul > li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 60px;
+}
+
+footer .footer > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+footer .footer > ul > li.links{
+    width: 197px;
+}
+
+footer ul li.links > ul > li{
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 27px;
+}
+
+footer ul li.links > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+footer .footer > ul > li.links li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+footer .footer > ul > li.about{
+    width: 327px;
+}
+
+footer ul li.about p{
+    color: white;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    margin-top: -9px;
+}
+
+footer ul li.about > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer ul li.about > ul > li:last-child{
+    margin-right: 0;
+}
+
+footer ul li.about > ul > li a{
+    background: url('../img/social_media.png') no-repeat;
+}
+
+footer ul li.about > ul > li a.facebook{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: 0 0;
+}
+footer ul li.about > ul > li a.twitter{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-position: -11px 0px;
+}

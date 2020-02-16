@@ -1,0 +1,501 @@
+
+body{
+    background: #fff;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+    color: #626262;
+    font-family: "lato-regular", Clinzel, serif;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgb(128, 69, 0);
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin-top: 40px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+.hero{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url('../img/bibliotheque.jpeg') no-repeat bottom center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero .caption{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -105px;
+}
+
+.hero .caption h2{
+    color: #fff;
+    font-family: "P22 Corinthia";
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+.hero .caption h3{
+    color: #fff;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 14px;
+    margin: -15px 0 0 25px;
+    left: 1px;
+}
+
+
+.listings{
+    padding: 100px 0;
+}
+
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    width: 340px;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 0 40px 40px 0;
+}
+
+.listings ul.properties_list li img.property_img{
+    width: 100%;
+    height: auto!important;
+    vertical-align: top;
+}
+
+
+.listings ul.properties_list li .price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 15px 20px;
+    background: #FEDFBB;
+    color: #514d4d;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.listings ul.properties_list li:nth-child(3n+0){
+    margin-right: 0;
+}
+
+.listings ul li .property_details{
+    width: 298px;
+    padding: 10px 20px 14px 20px;
+    border-bottom: 1px solid #f2f1f1;
+    border-left: 1px solid #f2f1f1;
+    border-right: 1px solid #f2f1f1;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+.listings ul li:hover .property_details{
+    border-bottom: 1px solid #95badf;
+    border-left: 1px solid #95badf;
+    border-right: 1px solid #95badf;
+}
+
+.listings ul li .property_details h1{
+    color: #666464;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 28px;
+}
+
+.listings ul li .property_details h1 a{
+    text-decoration: none;
+    color: #666464;
+}
+
+.listings ul li .property_details h2{
+    color: #FEDFBB;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.listings ul li .property_details .property_size{
+    color: #FEDFBB;
+}
+
+footer{
+    padding-top: 100px;
+    background: #DCA565;
+}
+
+footer .footer > ul{
+    overflow: hidden;
+}
+
+footer .footer > ul > li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin-right: 60px;
+}
+
+footer .footer > ul > li:last-child{
+    margin-right: 0;
+}
+
+
+footer .footer > ul > li.links{
+    width: 197px;
+}
+
+footer ul li.links > ul > li{
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 27px;
+}
+
+footer ul li.links > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+footer .footer > ul > li.links li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+footer .footer > ul > li.about{
+    width: 327px;
+}
+
+footer ul li.about p{
+    color: white;
+    font-family: "lato-regular", Clinzel, serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    margin-top: -9px;
+}
+
+footer ul li.about > ul > li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+footer ul li.about > ul > li:last-child{
+    margin-right: 0;
+}
+
+footer ul li.about > ul > li a{
+    background: url('../img/social_media.png') no-repeat;
+}
+
+footer ul li.about > ul > li a.facebook{
+    display: block;
+    width: 10px;
+    height: 18px;
+    background-position: 0 0;
+}
+footer ul li.about > ul > li a.twitter{
+    display: block;
+    width: 19px;
+    height: 18px;
+    background-position: -11px 0px;
+}
+
+@media (max-width:1500px){
+    .hero{
+        height: 800px;
+    }
+}
+
+
+@media (max-width: 1150px){
+    .wrapper{
+        padding: 0 40px;
+        max-width: 1020px;
+    }
+
+    footer .footer > ul > li{
+        margin-right: 5.454545454545455%;
+    }
+
+    footer .footer > ul > li.links{
+        width: 17.90909090909091%;
+    }
+
+    footer .footer > ul > li.about{
+        width: 29.72727272727273%;
+    }
+}
+
+
+@media (max-width:800px){
+    .hero{
+        height: 600px;
+    }
+
+    .hero .caption{
+        width: 92.72727272727273%;
+        padding: 0 3.636363636363636%; 
+    }
+
+    .hero .caption h3{
+        margin: 0;
+        left: 0;
+    }
+
+    header a.hamburger{
+        display: block;
+    }
+
+    header nav{
+        position: absolute;
+        display: none;
+        width: 92.72727272727273%;
+        top: 95px;
+        left: 3.636363636363636%;
+        float: none;
+        z-index: 20;
+        overflow: hidden;
+        background: #fff;
+        border-top: 5px solid #bfd9f2;
+    }
+
+    header nav.active{
+        display: block;
+    }
+
+    header nav .login_btn{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+        background: #f2f3f3;
+    }
+
+    header nav ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    header nav ul li{
+        display: block;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    header nav ul li a{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #f2f3f3;
+
+        transition: background .2s linear;
+        -webkit-transition: background .2s linear;
+        -moz-transition: background .2s linear;
+        -o-transition: background .2s linear;
+    }
+
+    header nav ul li a:active{
+        background: #f2f3f3;
+    }
+
+    header nav ul li a,
+    header nav .login_btn{
+        color: #1c3655;
+    }
+
+    header nav .login_btn:hover{
+        background: #eaebeb;
+    }
+
+    header nav ul li:last-child{
+        border: 0;
+    }
+
+    .listings ul.properties_list li{
+        width: 46.36363636363636%;
+        margin: 0 7.272727272727273% 7.272727272727273% 0;
+    }
+
+    .listings ul.properties_list li:nth-child(3n+0){
+        margin: 0 7.272727272727273% 7.272727272727273% 0;
+    }
+
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin-right: 0;
+    }
+
+    footer .footer > ul > li{
+        width: 29.6969696969697%!important;
+        margin-right: 5.454545454545455%;
+        margin-bottom: 100px;
+    }
+
+    footer .footer > ul > li:nth-child(3){
+        margin-right: 0;
+    }
+
+    footer .footer > ul > li.links li a{
+        text-align: center;
+    }
+
+    footer .footer > ul > li.about{
+        text-align: center;
+        float: none;
+        display: inline;
+        margin-right: 100%;
+        overflow: hidden;
+        border-top: 1px solid #82abd4;
+    }
+}
+
+
+@media (max-width:700px){
+
+    .search .advanced_search #check_in_date,
+    .search .advanced_search #check_out_date,
+    .search .advanced_search #min_price,
+    .search .advanced_search #max_price{
+        width: 96.36363636363636%;
+        padding: 0 1.818181818181818%;
+        border-bottom: 1px solid #aac8e4;
+    }
+
+    .search .advanced_search #check_in_date,
+    .search .advanced_search #check_out_date{
+        background: url('../img/calendar_icon.png') no-repeat;
+        background-position: 95.08840864440079% 50%;
+    }
+
+    .search .advanced_search #keywords{
+        width: 96.36363636363636%;
+        padding: 0 1.818181818181818%;
+    }
+
+    .search .advanced_search .search_fields{
+        border-bottom: 0;
+    }
+
+    .search .advanced_search .field_sep{
+        display: none;
+    }
+}
+
+
+@media (max-width:500px){
+    .hero .caption h2{
+        font-size: 85px;
+    }
+
+    .hero .caption h3{
+        font-size: 16px;
+    }
+
+    .search #search{
+        width: 83%;
+    }
+
+    .listings ul.properties_list li{
+        width: 100%;
+        margin-bottom: 60px!important;
+    }
+
+    .listings ul.properties_list li:last-child{
+        margin-bottom: 0!important;
+    }
+
+
+    .listings ul.properties_list li:nth-child(3n+0),
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin:0;
+    }
+
+    .listings .more_listing_btn{
+        display: block;
+        width: 100%; 
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    footer .footer > ul > li.links,
+    footer .footer > ul > li.about{
+        float: none;
+        width: 100%!important;
+        margin-right: 0;
+        margin-bottom: 60px;
+        padding-bottom: 60px;
+    }
+
+    footer .footer > ul > li:last-child{
+        padding-bottom: 0;
+    }
+
+    footer .footer > ul > li.links{
+        border-bottom: 1px solid #82abd4;
+    }
+}
